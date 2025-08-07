@@ -18,7 +18,7 @@ blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning
 blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
 
 # [3] 이미지 로드
-image_path = "/Users/ttaeram/Desktop/LLVM-Drone/assets/test_image.jpg"
+image_path = "/home/taeram/Desktop/HMI/assets/test_image.jpg"
 original_image = Image.open(image_path).convert("RGB")
 img_cv = cv2.imread(image_path)
 

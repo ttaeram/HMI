@@ -24,7 +24,7 @@ idna==3.10
 Jinja2==3.1.6
 joblib==1.5.1
 kiwisolver==1.4.8
-llama_cpp_python==0.3.14
+# llama_cpp_python==0.3.14
 MarkupSafe==3.0.2
 matplotlib==3.10.5
 mobileclip @ git+https://github.com/ultralytics/mobileclip.git@21653a924a91094f3c2bd5e8e4203800a954d846
